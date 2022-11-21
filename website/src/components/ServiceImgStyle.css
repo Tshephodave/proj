@@ -1,0 +1,41 @@
+.serviceImg{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    height: 60vh;
+    position: relative;
+}
+.serviceImg::before{
+    content: "";
+    background: url("https://media.istockphoto.com/id/1333390975/photo/diverse-corporate-team-working-together-in-modern-meeting-room-office.jpg?b=1&s=170667a&w=0&k=20&c=P2CkpC9a6O3n1GMVk8YXdXcjTgREm1id2XMVBDNU8xI=");
+    background-size: cover;
+    background-position: center top;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+
+
+}
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.serviceImg h1{
+    font-size: 2.4rem;
+}
+.serviceImg p{
+    font-size: 1.4rem;
+    text-align: center;
+}
+@media screen and (max-width: 640px){
+    .serviceImg h1{
+        font-size: 2rem;
+    }
+    
+}
