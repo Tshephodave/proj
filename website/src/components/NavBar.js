@@ -1,4 +1,4 @@
-
+import Logo from '../assets/Logo.png'
 import "./NavbarStyle.css"
 import React,{useState} from 'react'
 import {Link} from "react-router-dom"
@@ -20,7 +20,7 @@ const NavBar = () => {
   return (
     <div className={color ?"header header-bg" : "header"}>
         <Link to="/">
-            <h1>Faith Nyayi</h1>
+            <img src={Logo} width={150} height={30} alt='Faith Logo' />
         </Link>
         <ul className={click ? "nav-menu active":"nav-menu"}>
             <li>
