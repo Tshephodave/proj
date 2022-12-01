@@ -9,8 +9,10 @@
     z-index: 10;
 }
 .header-bg{
-    background-color:  rgb(0,0,0,0.9);
+    background:transparent;
     transition: 0,5s;
+    
+
 }
 
 .nav-menu {

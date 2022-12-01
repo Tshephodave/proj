@@ -30,7 +30,7 @@ const Form = () => {
               Message
             </label>
             <textarea rows="6" name="message" placeholder="Type Your Message Here"/>
-            <button className="btn">Submit</button>
+            <button className="btn btn-light">Submit</button>
             
         </form>
     </div>

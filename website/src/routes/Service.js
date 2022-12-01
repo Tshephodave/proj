@@ -8,7 +8,7 @@ const Service = () => {
   return (
     <div>
      <NavBar/>
-     <ServiceImg heading="Here is what we offer" text="With lot of expectise"/>
+     <ServiceImg heading="Here is what we offer" text="With lot of expectise "/>
      <Provides/>
      <Footer/>
     </div>

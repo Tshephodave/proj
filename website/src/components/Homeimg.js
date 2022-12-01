@@ -23,7 +23,8 @@ const Homeimg = () => {
                   visible: { opacity: 1, x: 0 },
                 }}
               >
-            <h1>consultant</h1>
+                
+            <h1> consultant</h1>
             </motion.div>
             <p>
               {''}
@@ -43,7 +44,7 @@ const Homeimg = () => {
             
             <div>
              <Link to="/service" 
-             className="btn">Services</Link>
+             className="btn btn-light">Services </Link>
              
              <Link to="/contact" className="btn btn-light">Contact Us</Link>
             </div>
